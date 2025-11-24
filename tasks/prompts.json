@@ -1,0 +1,32 @@
+{
+  "reasoning": [
+    {
+      "id": "r1",
+      "prompt": "Solve: If a train travels 60 km in 1.5 hours, what is its speed?"
+    },
+    {
+      "id": "r2",
+      "prompt": "If Alice has twice as many apples as Bob and together they have 18, how many does Alice have?"
+    }
+  ],
+  "code": [
+    {
+      "id": "c1",
+      "prompt": "Write a Python function that returns the nth Fibonacci number."
+    },
+    {
+      "id": "c2",
+      "prompt": "Write a Python function that reverses the words in a string."
+    }
+  ],
+  "analogies": [
+    {
+      "id": "a1",
+      "prompt": "Dog is to puppy as cat is to ?"
+    },
+    {
+      "id": "a2",
+      "prompt": "Hand is to glove as foot is to ?"
+    }
+  ]
+}

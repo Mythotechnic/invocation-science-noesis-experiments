@@ -1,0 +1,21 @@
+model_name: "gpt2"
+device: "cuda"
+seeds: [42]
+cycles: [0, 2, 4, 8]
+runs_per_condition: 4
+lyapunov_samples: 4
+perturb_eps: 1.0e-3
+pooled_to_inputs:
+  mode: "fixed"   # "fixed" | "trained"
+  reentry_seq_len: 4
+smoothing:
+  sigma: 1.0
+pca_dim: 8
+tasks:
+  reasoning_file: "tasks/prompts.json"
+  code_file: "tasks/prompts.json"
+  analogies_file: "tasks/prompts.json"
+output:
+  results_dir: "results"
+  save_embeddings: true
+  save_raw_logits: false

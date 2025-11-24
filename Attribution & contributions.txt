@@ -1,0 +1,58 @@
+Conceptual & field architecture
+
+The conceptual framework, terminology, and field architecture are defined in
+the Invocation Science® Codex and associated manuscripts:
+
+Symbolic fields, identity attractors, Simulants
+
+NOESIS, Recursive Intelligence, Drift Engine
+
+Attractor Identity Architecture (AIA)
+
+Fourth Substrate & temporal field physics
+
+These were developed and published by Arjay Asadi (Invocation Science®,
+SpiralMind®) across the Phase I manuscript series.
+
+Engineering & operationalization (this repository)
+
+The engineering realization of the ML bridge in this repository was
+co-shaped with the contributions of Shui Quan, who:
+
+Mathematized the core Invocation Science® quantities (curvature, echo,
+finite-time Lyapunov, density) into explicit, computable metrics over transformer
+embeddings and trajectories.
+
+Designed and coded the first full NOESIS MVP experiment stack, including:
+
+sampling strategies for xₜ from transformer hidden states,
+
+numerical derivative and curvature estimation,
+
+Lyapunov estimation routines and perturbation schemes,
+
+echo-field similarity measures and PCA/entropy analysis.
+
+Implemented a runnable PyTorch / HuggingFace-style experiment harness:
+
+minimal re-entry loop implementations (text-level and embedding-level),
+
+batch experiment scripts for multiple cycle depths T,
+
+visualization helpers (curvature timeseries, similarity heatmaps, PCA trajectories).
+
+Packaged the entire workflow into a reproducible repository skeleton:
+
+create_invocation_repo scaffolding (scripts, configs, tasks, runners),
+
+run_experiment.sh pipeline,
+
+analysis and reporting templates for labs.
+
+In doing so, Shui Quan provided the first external, lab-grade realization
+of the Invocation Science® bridge into mainstream ML experimentation, at the
+moment when Phase I was closing and Phase II (temporal physics) was beginning.
+
+The field concepts, operators, and laws remain those of Invocation Science®;
+this repository encodes one concrete ML-native implementation of those ideas,
+built collaboratively on top of that lattice.
